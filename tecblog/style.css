@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:aliceblue;
+
+}
+.header{
+    background-color: rgb(255, 187, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding: 15px;
+    text-align: center;
+}
+#logo, #menu{
+    padding: 10px;
+}
+#logo{
+    font-size: 2em;
+    color: rgb(39, 39, 39);
+}
+#blog-logo{
+    color: aliceblue;
+    font-weight: bold;
+}
+#menu a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#menu a:hover{
+    color: rgb(255, 187, 0);
+    background-color: aliceblue;
+}
+.conteudo{
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+.postagem{
+    padding: 5px;
+    width: 660px;
+    float: left;
+    background-color: aliceblue;
+}
+.noticias{
+    width:240px;
+    float: right;
+    background-color: aliceblue;
+}
+.noticias h3{
+    text-align: center;
+    background: #ccc;
+    display: block;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.noticias p{
+    text-align: justify;
+    padding: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.noticias a{
+    padding: 5px;
+    color: rgb(255, 187, 0);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.noticias a:hover{
+    text-decoration: underline;
+}
+.noticias-lado{
+    margin: 5px;
+    border-bottom: 3px dotted #ccc;
+}
+.footer{
+    background-color: #ccc;
+    text-align: center;
+    width: 660px;
+    clear: both;
+    font-weight: bold;
+    padding: 5px;
+}
+img{
+    border-radius: 12px;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 187, 0);
+    font-size: 2em;
+}
+.postagem span{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    padding-bottom: 10px;
+    margin:10px;
+    border-bottom: 3px dotted #ccc;
+}
+.postagem a{
+    text-decoration: none;
+    color:rgb(255, 187, 0);
+}
+.postagem a:hover{
+    text-decoration: underline;
+}
